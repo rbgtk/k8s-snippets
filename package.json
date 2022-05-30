@@ -1,0 +1,24 @@
+{
+    "name": "k8s-snippets",
+    "displayName": "k8s-snippets",
+    "description": "Kubernetes basic and extended snippets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "yaml",
+                "path": "./snippets/certificate.json"
+            },
+            {
+                "language": "yaml",
+                "path": "./snippets/issuer.json"
+            }
+        ]
+    }
+}

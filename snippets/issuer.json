@@ -1,0 +1,14 @@
+{
+  "Issuer": {
+      "prefix": ["k8sIssuer", "kube.issuer"],
+      "description": "Kubernetes Issuer",
+      "body": [
+        "apiVersion: cert-manager.io/v1",
+        "kind: Issuer",
+        "metadata:",
+        "  name: ${1:tls-cert-issuer}",
+        "spec:",
+        "  selfSigned: {}"
+      ]
+  }
+}
